@@ -8,6 +8,10 @@
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 #body {
     display: flex;
     flex-direction: column;
@@ -150,10 +154,5 @@
     width: 100vw;
     height: 35vh;
     background-color: #471c77;
-    transform: translate(-.29cm, -.72cm);
-    border: 4px solid black;
-}
-
-.content{
-    
+    transform: translate(-.23cm, -.72cm);
 }
