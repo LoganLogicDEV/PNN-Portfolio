@@ -96,24 +96,48 @@
     font-style: normal;
 }
 
-.aboutme {
+.content {
     background-color: white;
     width: 100vw;
     height: auto;
     transform: translate(-.33cm, -.73cm);
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
     padding: 20px;
+    align-items: center;
     border: 6px solid black;
 }
 
-#about {
+.block {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.about {
     border-radius: 5px;
-    width: 45vw;
+    width: 50vw;
     word-wrap: break-word;
+}
+
+.buffer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    width: 100vw;
+    height: 35vh;
+    background-color: #471c77;
+    transform: translate(-.23cm, -.72cm);
+}
+
+.contentvideo {
+    max-width: 35vw;
 }
 
 #iam {
@@ -145,14 +169,3 @@
     border: 5px solid black;
 }
 
-.buffer2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    position: relative;
-    width: 100vw;
-    height: 35vh;
-    background-color: #471c77;
-    transform: translate(-.23cm, -.72cm);
-}
