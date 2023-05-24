@@ -92,7 +92,7 @@
     font-style: normal;
 }
 
-#aboutme {
+.aboutme {
     background-color: white;
     width: 100vw;
     height: auto;
@@ -107,8 +107,9 @@
 }
 
 #about {
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 5px;
+    width: 45vw;
+    word-wrap: break-word;
 }
 
 #iam {
@@ -116,6 +117,17 @@
     font-weight: 500;
     font-style: normal;
     font-size: 6.5vw;
+    margin: 0px;
+    padding: 0px;
+    line-height: 80px;
+
+}
+
+#me {
+    font-family: korolev-condensed, sans-serif;
+    font-weight: 30;
+    font-style: normal;
+    font-size: 2.5vw;
 }
 
 #spookyphoto {
@@ -138,6 +150,10 @@
     width: 100vw;
     height: 35vh;
     background-color: #471c77;
-    transform: translate(-.29cm, -.85cm);
+    transform: translate(-.29cm, -.72cm);
     border: 4px solid black;
+}
+
+.content{
+    
 }
