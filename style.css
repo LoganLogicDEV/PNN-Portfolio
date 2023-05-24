@@ -82,7 +82,7 @@
     border: 4px solid black;
 }
 
-#Header1 {
+.buffertext {
     position: absolute;
     color: white; 
     text-align: center;
