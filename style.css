@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://use.typekit.net/xdg3uwd.css');
+
+:root {
+    background-color: #6d21c3;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+#background-video { 
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 40%; 
+}
+
+#welcome {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home_text {
+    color: white;
+    text-align: center;
+    font-size: 5.5vw;
+}
+
+#beta {
+    font-family: korolev-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: .5cm;
+}
+
+#apple {
+    font-family: korolev-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 6.5vw;
+    line-height: .5cm;
+}
+
+#landing {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    row-gap: 4rem;
+    text-align: center;
+}
+
+.buffer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    width: 100vw;
+    height: 35vh;
+    background-color: #471c77;
+    transform: translate(-.29cm, -.22cm);
+    border: 4px solid black;
+}
+
+#Header1 {
+    position: absolute;
+    color: white; 
+    text-align: center;
+    font-size: 400%;
+    font-family: korolev-condensed, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#aboutme {
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    transform: translate(-.29cm, -.73cm);
+    flex-direction: row;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border: 4px solid black;
+}
+
+#about {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#iam {
+    font-family: korolev-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6.5vw;
+}
+
+#spookyphoto {
+    max-width: 35vw;
+}
+
+#thephoto {
+    width: 35vw;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid black;
+}
